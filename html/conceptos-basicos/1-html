@@ -1,0 +1,33 @@
+¿Qué es Html?
+El lenguaje de marcado de hiper texto (HTML) es el código que se utiliza
+para estructurar y desplegar una página web y sus contenidos. Por ejemplo,
+sus contenidos podrían ser párrafos, una lista con viñetas, o imágenes y
+talas de datos
+
+¡HTML no es un lenguaje de programación!
+html es un lenguaje de marcado que define la estructura de tu contenido. HTML
+consiste en una serie de elementos que se usaran para encerrar diferentes
+partes del contenido para que se vean o comporten de una manera determinada
+
+Anatomía de un elemento HTML
+Ejemplo: <p>Mi gato es muy gruñon</p>
+
+    Contenido:
+    - <p> : Etiqueta de apertura
+    - </p> : Etiqueta de cierre
+    - Mi gato es muy gruñon : Contenido    
+    - <p>Mi gato es muy gruñon</p> : Elemento
+
+Las partes principales del elemento son:
+1. La etiqueta de apertura: Consiste en el nombre del elemento (En este caso, p),
+encerrado por paréntesis angulares (<>) de apertura y cierre. Establece dónde
+comienza o empieza a tener efecto el elemento --en este caso, donde comieza el 
+párrafo --.
+2. La etiqueta de cierre: Es igual que la etiqueta de apertura, excepto que incluye
+una barra de cierre (/) antes del nombre de la etiqueta. Establece dónde termina el
+elemento --en este caso dónde termina el párrafo--.
+3. El contenido: Este es el contenido del elemento, que en este caso es sólo texto.
+4. El elemento: La etiqueta de apertura, más que la etiqueta de cierre, más el
+contenido equivale al elemento.
+
+Mas información: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics 

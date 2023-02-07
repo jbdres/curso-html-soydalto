@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios en HTML</title>
+</head>
+<body>
+    
+    <!-- Formulario en html : <form></form>-->
+    <!-- (Entrada de datos) -->
+
+    <form action="">
+        <!-- Atributos input
+            - type : Tipo de dato que se espera recibir
+            - name : Es el nombre del atributo que se envía el servidor y que a su vez lo recibe para procesar
+            - required : Obliga al usuario a llenar los campos establecidos para enviar el formulario 
+        -->
+        <input type="text" name="nombre" required>
+        <input type="password" name="" id="">
+        <input type="number">
+        <input type="email"> <!-- Hace una validación de que el email esté con la estructura correcta -->
+        <input type="color"> <!-- Permite seleccionar un color cualquiera -->       
+        <input type="range" min="1" max="5"> <!-- Permite seleccionar un número en un rango 
+                                                cualquiera (en este caso, desde el 10 hasta el 70)-->
+        <input type="date"> <!-- Poner una fecha -->
+        <input type="time" required > <!-- Establecer el tiempo -->
+        <input type="button" value="Boton"> <!-- Siempre tiene que tener un 'value' qie es lo que
+                                            aparece en el interior -->
+
+        <textarea></textarea> <!-- Espacio para que el usuario escriba algo, por ejemplo un comentario, 
+                                con el atributo 'readonly', solamente es posible leer el contenido del
+                                text area y no escribir en el-->
+
+        <input type="submit"> <!-- Hace el envío de la información suministrada en en los campos anteriores,
+                                El atributo 'value' por defecto es 'enviar' pero en el idioma en el cual se
+                                mire la página, aunque esto lo podemos modificar como lo hicimos en el campo
+                                anterior. -->
+    </form>
+
+    <!-- Hay mas campos para el 'input' pero eso son los mas utilizados-->
+    <!-- ¡PARA TODO EN ESTE CURSO HAY MUCHOS MAS ATRIBUTOS DE LOS QUE ESTAMOS TRABAJANDO!-->
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia en HTML</title>
+</head>
+<body>
+    
+    <!-- Imagenes -->
+    <h1>Imagenes</h1>
+    <h2>Ruta externa: </h2> <!-- Si la ruta a la cual hacemos referencia deja de existir o es modificada, 
+                            ya no podremos visualizar la imagen-->
+
+    <!-- Atributos:
+        - src : path de la imagen
+        (No es recomendable moficar el tamaño de las imagenes por medio de atributos ya que eso lo hacemos con css)
+            - width : Ancho de imagen
+            - height : Altura de la imagen
+            (Si solo ponemos uno de estos atributos, la imagen se adaptara al otro que hace falta)
+        - alt : Texto alternativo que aparece cuando la imagen no es encontrada.
+        - tittle : Titulo de la imagen (Aparece cuando ponemos el cursor sobre dicho elemento)
+    -->
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlXKRHmhGWFD60Iferdej9qvl_U31OBv-zmg&usqp=CAU" alt="" title="Primera imagen">
+    <h2>Local</h2>
+    <img src="html/images/google-workspace.ico" alt="Google workspace" width="400 px" height="50px"> <!-- La resolución y forma 
+                                                                                de la imagen cambia drasticamente,
+                                                                                a menos que los datos sean proporcionales-->
+                                                                                
+    
+    <h1>Videos</h1>                                                                                
+    <!-- Estamos accediendo a un enlace que suministra directamente el video (no puede ser una página que contenga un video, sino que directamente el video) -->
+    <video src="https://assets.website-files.com/5eece34dd97fc3048085c8f3/623e02442bd69af42c690e8c_Nextonia%20-%20Retail%20Autonomus%20Grab%20and%20Go-transcode.mp4" controls ></video>
+
+    <!--
+        Atributos:
+        - controls : Acceso a los controles para manejar el video (Pausa, volumen, pantalla completa, etc)
+    -->
+    
+    <!-- La forma en la cual manejamos este video también sirve para los audios-->
+
+</body>
+</html>

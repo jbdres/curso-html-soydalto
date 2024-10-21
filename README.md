@@ -1,0 +1,1 @@
+Colección de proyectos HTML5 desarrollados siguiendo las pautas del curso de Soy Dalto. Explora ejemplos prácticos de diseño web responsivo, accesibilidad y optimización para motores de búsqueda. Ideal para aplicar los conocimientos teóricos a proyectos reales.
